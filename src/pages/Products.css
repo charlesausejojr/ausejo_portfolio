@@ -1,0 +1,30 @@
+.products{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0 10px 0;
+    text-align: center;
+}
+.center {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+.products__card{
+    margin: 0 5px 0 5px;
+    border-top: 10px solid #1f6f8b;
+}
+.products__display > .products__row{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.products__title{
+    display: block;
+}
+.products__display{
+    flex-direction: column;
+}

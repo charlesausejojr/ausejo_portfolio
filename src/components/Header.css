@@ -1,0 +1,37 @@
+.header{
+    color: white;
+    padding: 25px;
+    background: rgb(31,111,139);
+    justify-content: space-between;
+    position: sticky;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    border-bottom: 5px solid gray;
+    display: flex;
+    align-items: center;
+}
+.header__left{
+    align-items: center;
+    display: flex;
+}
+.header__left > img {
+    height: 40px;
+}
+.header__left > h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8px;
+}
+.header__right{
+    display: flex;
+}
+.header__right > .header__button{
+    margin: 0 10px 0 10px;
+    color: white !important;
+}
+.header__link {
+    text-decoration: none;
+    margin:0 20px 0 20px;
+}
+.header__button {
+    color: white !important;
+
+}
